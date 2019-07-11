@@ -18,7 +18,7 @@ public class BaseTeste {
 	protected static void iniciaDriver(boolean maximizar) { 
 		if(driver == null) {
 			System.setProperty("webdriver.chrome.driver",
-		    	"C:\\Users\\rafael.santos\\eclipse-workspace\\SiteAumation\\drivers\\Chrome01\\chromedriver.exe");
+		    	"./drivers/Chrome01/chromedriver.exe");
 		    driver = new ChromeDriver();
 		    wait = new WebDriverWait(driver,1000);
 		    
