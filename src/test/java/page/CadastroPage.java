@@ -1,6 +1,5 @@
 package page;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -77,6 +76,8 @@ public class CadastroPage extends BaseTeste {
 	
 	@FindBy(xpath = "//input[@id='phone_mobile']")
 	private WebElement mobile;
+	
+	
 	
 
 	public WebElement getMobile() {

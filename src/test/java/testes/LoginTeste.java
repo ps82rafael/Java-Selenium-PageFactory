@@ -14,6 +14,7 @@ public class LoginTeste{
 		this.cadastroFuncionalidade = new CadastroFuncionalidade();
 	}
 	
+	
 	@Test
 	public void testeCadastro() {
 		cadastroFuncionalidade.cadstroSucesso();

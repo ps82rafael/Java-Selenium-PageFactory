@@ -2,6 +2,7 @@ package baseTeste;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class Utils extends BaseTeste {
@@ -19,6 +20,12 @@ public class Utils extends BaseTeste {
 	public void preencheCampoTexto(WebElement elemento, String value) {
 		elemento.sendKeys(value);		
 		
+	}
+	
+	public void mouseHover(WebElement elemento) {
+		
+		 Actions action = new Actions(driver);
+		 action.moveToElement(elemento).build().perform();
 	}
 	
 
