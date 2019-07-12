@@ -24,19 +24,58 @@ public class ComprasPage extends BaseTeste{
 	private WebElement adicionar;
 		
 	@FindBy(xpath ="//a[@class='product_img_link']/child::img[@class='replace-2x img-responsive']" )
-	private WebElement mouseHover;
+	private WebElement mousedresses;
 	
+	@FindBy(xpath ="//a[@class='product_img_link']/child::img[@src='http://automationpractice.com/img/p/8/8-home_default.jpg']" )
+	private WebElement mouseaddx;
+	
+	@FindBy(xpath ="//a[@class='product_img_link']/child::img[@src='http://automationpractice.com/img/p/1/0/10-home_default.jpg']" )
+	private WebElement mouseadds;
+	
+
 	@FindBy(xpath ="//div[@class='button-container']/child::a[@class='btn btn-default button button-medium']" )
 	private WebElement checkuot;
 	
+	@FindBy(xpath ="//a[@title='Dresses' and parent::li/following-sibling::li/child::a[@title='T-shirts']]" )
+	private WebElement dresses;
+	
+	@FindBy(xpath ="//div[@class='compare']/child::a[@data-id-product='3']" )
+	private WebElement adicionarx;
+	
+	@FindBy(xpath ="//div[@class='compare']/child::a[@data-id-product='4']" )
+	private WebElement adicionars;
+	
+	
+	
+
+	public WebElement getAdicionars() {
+		return adicionars;
+	}
+
+	public WebElement getAdicionarx() {
+		return adicionarx;
+	}
+
+	public WebElement getDresses() {
+		return dresses;
+	}
 
 	public WebElement getCheckuot() {
 		return checkuot;
 	}
 
 	public WebElement getMouseHover() {
-		return mouseHover;
+		return mousedresses;
 	}
+	
+	public WebElement getMouseaddx() {
+		return mouseaddx;
+	}
+	
+	public WebElement getMouseadds() {
+		return mouseadds;
+	}
+
 
 	public WebElement getAdicionar() {
 		return adicionar;

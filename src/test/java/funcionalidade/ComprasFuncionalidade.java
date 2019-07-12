@@ -21,12 +21,18 @@ public class ComprasFuncionalidade extends BaseTeste {
 	public void comprastshirts() {
 
 		driver.get(url);
-		this.comprasPage.getTshirts().click();
-		this.utils.mouseHover(this.comprasPage.getMouseHover());
-        this.comprasPage.getAdicionar().click();
-        driver.switchTo().parentFrame();
-        this.comprasPage.getCheckuot().click();
-
+		
+		this.comprasPage.getDresses().click();
+		this.utils.mouseHover(this.comprasPage.getMouseaddx());
+		this.comprasPage.getAdicionarx().click();
+		this.utils.mouseHover(this.comprasPage.getMouseadds());
+		this.comprasPage.getAdicionars().click();
+		//this.comprasPage.getTshirts().click();
+		//this.utils.mouseHover(this.comprasPage.getMouseHover());
+        //this.comprasPage.getAdicionar().click();
+        //driver.switchTo().parentFrame();
+        //this.comprasPage.getCheckuot().click();
+        
 	}
 
 }
