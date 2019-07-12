@@ -17,7 +17,7 @@ public class DeleteItemPage extends BaseTeste {
     @FindBy (xpath = "//a[@title='View my shopping cart']")
     private WebElement linkCart;
     @FindBy(xpath = "//td[@class='cart_delete text-center']/descendant-or-self::a[@id='3_13_0_0']")
-    private WebElement
+    private WebElement btnLogin;
 
     public WebElement getLinkCart() { return linkCart; }
 }

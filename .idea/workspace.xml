@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d554d90-d7bc-4cfa-9e9d-a65bcccf250d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/funcionalidade/DeleteItemFuncionalidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/funcionalidade/LoginFuncionalidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page/DeleteItemPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testes/DeleteItemTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/baseTeste/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTeste/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/funcionalidade/CadastroFuncionalidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/funcionalidade/CadastroFuncionalidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/funcionalidade/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testes/LoginTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testes/LoginTeste.java" afterDir="false" />
+    <list default="true" id="ff762445-5dd6-46df-955f-619ddd2c9abe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/DeleteItemPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/DeleteItemPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,16 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/page/DeleteItemPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,14 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testes/LoginTeste.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -522,7 +506,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/page/DeleteItemPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -533,9 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
