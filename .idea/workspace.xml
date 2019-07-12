@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff762445-5dd6-46df-955f-619ddd2c9abe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/DeleteItemPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/DeleteItemPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/funcionalidade/FilterFuncionalidade.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/funcionalidade/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -30,7 +31,11 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/page/DeleteItemPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
+
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+
               <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,6 +84,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testes/LoginTeste.java">
           <provider selected="true" editor-type-id="text-editor">
+
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+
             <state relative-caret-position="340">
               <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
@@ -86,6 +95,7 @@
                 <element signature="e#285#286#0" expanded="true" />
                 <element signature="e#350#351#0" expanded="true" />
               </folding>
+
             </state>
           </provider>
         </entry>
@@ -396,11 +406,25 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/funcionalidade/FilterFuncionalidade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
+
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testes/LoginTeste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+
           <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="e#646#647#0" expanded="true" />
             <element signature="e#677#678#0" expanded="true" />
           </folding>
+
         </state>
       </provider>
     </entry>
