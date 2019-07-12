@@ -26,7 +26,6 @@ public class BaseTeste {
 		    	driver.manage().window().maximize();
 		    }  
 		}
-	    
 	}
 	
 	// Finalizar o chrome

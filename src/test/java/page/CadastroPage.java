@@ -115,7 +115,6 @@ public class CadastroPage extends BaseTeste {
 		return address2;
 	}
 
-
 	public WebElement getCompany() {
 		return company;
 	}

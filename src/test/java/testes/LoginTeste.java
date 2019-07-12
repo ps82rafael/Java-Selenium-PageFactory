@@ -1,21 +1,22 @@
 package testes;
 
-import funcionalidade.LoginFuncionalidade;
-import junit.framework.Assert;
 import org.junit.Test;
 
-public class LoginTeste {
-	private LoginFuncionalidade loginFuncionalidade;
+import baseTeste.BaseTeste;
+import funcionalidade.CadastroFuncionalidade;
+import junit.framework.Assert;
+import page.CadastroPage;
 
+public class LoginTeste{
+	private static CadastroFuncionalidade cadastroFuncionalidade; 
+	
 	public LoginTeste() {
-
-		this.loginFuncionalidade = new LoginFuncionalidade();
+		this.cadastroFuncionalidade = new CadastroFuncionalidade();
 	}
-		@Test
-		public void testeLogin () {
-			loginFuncionalidade.loginSucesso();
-			Assert.assertEquals("Rafael dos Santos Leite", loginFuncionalidade.retornanome());
-
-		}
-
+	
+	@Test
+	public void testeCadastro() {
+		cadastroFuncionalidade.cadstroSucesso();
+	Assert.assertEquals("Rafael Pereira dos Santos", cadastroFuncionalidade.retornanome());
+	}
 }
