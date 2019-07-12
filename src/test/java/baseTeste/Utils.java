@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 public class Utils extends BaseTeste {
 		
 	/**
-	 * Metodo irá selecionar o elemento
+	 * Metodo irï¿½ selecionar o elemento
 	 * @param select Recebe o valor do elemento
 	 * @param value Esse parametro recebe o valor do campo select que voce pretende clicar 
 	 */
@@ -18,7 +18,6 @@ public class Utils extends BaseTeste {
 	}
 	
 	public void preencheCampoTexto(WebElement elemento, String value) {
-		
 		elemento.sendKeys(value);		
 		
 	}
