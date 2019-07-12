@@ -23,11 +23,11 @@ public class CadastroFuncionalidade extends BaseTeste {
 		this.utils = new Utils();
 	}
 	
-	
 	public void cadstroSucesso() {
 	driver.get(url);
 	this.homePage.getBtnSignIn().click();
 	this.utils.preencheCampoTexto(this.cadastroPage.getInputEmailCreate(),"tevfetfeyg@teste.com.br");
+	this.utils.preencheCampoTexto(this.cadastroPage.getInputEmailCreate(),"teste12-@teste.com.br");
 	this.cadastroPage.getBtnCreateanAccount().click();	
 	wait.until(ExpectedConditions.invisibilityOf(this.cadastroPage.getGenderTitle()));                                              
 	this.cadastroPage.getRadioGenderMr().click();
@@ -37,23 +37,20 @@ public class CadastroFuncionalidade extends BaseTeste {
 	this.utils.selectByValue(this.cadastroPage.getSelectDia(), "17");
 	this.utils.selectByValue(this.cadastroPage.getSelectMes(), "9");
 	this.utils.selectByValue(this.cadastroPage.getSelectAno(), "2006");
-	this.utils.preencheCampoTexto(this.cadastroPage.getInputpasswd(), "Baratao");
+	this.utils.preencheCampoTexto(this.cadastroPage.getInputpasswd(), "123456");
 	this.cadastroPage.getNewsletter().click();
 	this.utils.preencheCampoTexto(this.cadastroPage.getCompany(), "Yaman");
 	this.utils.preencheCampoTexto(this.cadastroPage.getAddress1(), "Alameda Rio Negro");
-	this.utils.preencheCampoTexto(this.cadastroPage.getAddress2(), "Bloco 2 - 2º Andar, Barueri - SP");
+	this.utils.preencheCampoTexto(this.cadastroPage.getAddress2(), "Bloco 2 - 2Â° Andar, Barueri - SP");
 	this.utils.preencheCampoTexto(this.cadastroPage.getCity(), "Alabama");
 	this.utils.selectByValue(this.cadastroPage.getState(), "11");
-	this.utils.preencheCampoTexto(this.cadastroPage.getinformation(),"Treinando Automação na Yaman:");
+	this.utils.preencheCampoTexto(this.cadastroPage.getinformation(),"Treinando Automaï¿½ï¿½o na Yaman:");
 	this.utils.preencheCampoTexto(this.cadastroPage.getPostcode(), "06655");
 	this.utils.preencheCampoTexto(this.cadastroPage.getPhone(), "011-42798-2983");
 	this.utils.preencheCampoTexto(this.cadastroPage.getMobile(), "011-92798-2325");
 	driver.findElement(By.xpath("//input[@id='alias']")).clear();
 	driver.findElement(By.xpath("//input[@id='alias']")).sendKeys("Teste@teste2.com.br");
 	driver.findElement(By.xpath("//button[@id='submitAccount']")).click();
-	
-	
-	
 }
 
 public String retornanome() {

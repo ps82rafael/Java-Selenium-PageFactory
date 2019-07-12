@@ -20,9 +20,4 @@ public class LoginTeste{
 		cadastroFuncionalidade.cadstroSucesso();
 	Assert.assertEquals("Rafael Pereira dos Santos", cadastroFuncionalidade.retornanome());
 	}
-	
-
-	
-	
-	
 }
