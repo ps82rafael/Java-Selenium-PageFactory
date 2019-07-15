@@ -27,7 +27,7 @@ public class CadastroFuncionalidade extends BaseTeste {
 	public void cadstroSucesso() {
 	driver.get(url);
 	this.homePage.getBtnSignIn().click();
-	this.utils.preencheCampoTexto(this.cadastroPage.getInputEmailCreate(),"teste12224@teste.com.br");
+	this.utils.preencheCampoTexto(this.cadastroPage.getInputEmailCreate(),"tevfetfeyg@teste.com.br");
 	this.cadastroPage.getBtnCreateanAccount().click();	
 	wait.until(ExpectedConditions.invisibilityOf(this.cadastroPage.getGenderTitle()));                                              
 	this.cadastroPage.getRadioGenderMr().click();
